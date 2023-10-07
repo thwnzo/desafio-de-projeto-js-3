@@ -11,19 +11,19 @@ class addressHero {
 let tipo = ""
 const heroData = new addressHero("Enzo", "20", "guerreiro")
 
-if(heroData.classe.toLowerCase() === "mago") {
+if (heroData.classe.toLowerCase() === "mago") {
     tipo = "Magia"
     heroData.atacar()
 
-} else if(heroData.classe.toLowerCase() === "guerreiro") {
+} else if (heroData.classe.toLowerCase() === "guerreiro") {
     tipo = "Espada"
     heroData.atacar()
 
-} else if(heroData.classe.toLowerCase() === "monge") {
+} else if (heroData.classe.toLowerCase() === "monge") {
     tipo = "Artes Marciais"
     heroData.atacar()
 
-} else if(heroData.classe.toLowerCase() === "ninja") {
+} else if (heroData.classe.toLowerCase() === "ninja") {
     tipo = "Shuriken"
     heroData.atacar()
 
